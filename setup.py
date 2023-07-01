@@ -9,7 +9,9 @@ from setuptools import setup
 
 APP = ['pdf-merger.py']
 DATA_FILES = []
-OPTIONS = {}
+OPTIONS = {
+    'packages': ['zlib']
+}
 
 setup(
     app=APP,
